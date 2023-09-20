@@ -1,0 +1,305 @@
+.dashboard_header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+body {
+  background-color: whitesmoke;
+}
+
+.report {
+  align-items: center;
+  height: 35px;
+  width: 150px;
+  display: flex;
+  background-color: #4e73df;
+  border: 1px solid gray;
+  border-radius: 3px;
+  color: white;
+}
+.box1 {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.boxbody1,
+.boxbody2,
+.boxbody3,
+.boxbody4 {
+  height: 100px;
+  width: 320px;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 0px 1px gainsboro;
+}
+.pars {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bar {
+  width: 180px;
+  margin-top: 16px;
+}
+
+.boxbody1 {
+  border-left: 5px solid blue;
+}
+
+.boxbody2 {
+  border-left: 5px solid rgb(107, 234, 79);
+}
+
+.boxbody3 {
+  border-left: 5px solid lightskyblue;
+}
+
+.boxbody4 {
+  border-left: 5px solid orange;
+}
+
+.bodycont {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+}
+.type1,
+.type2,
+.type3,
+.type4,
+.price {
+  width: 250px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.price {
+  font-size: 20px;
+}
+
+.type1 {
+  color: blue;
+}
+
+.type2 {
+  color: rgb(107, 234, 79);
+}
+
+.type3 {
+  color: lightskyblue;
+}
+
+.type4 {
+  color: orange;
+}
+
+.revenue_part {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.earnings_overview_part {
+  margin: 0px;
+  height: 400px;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+}
+
+.earnings_overview_heading,
+.revenue_heading {
+  padding-left: 15px;
+  color: blue;
+}
+
+.revenue_sources,
+.earnings_overview {
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 1px gainsboro;
+}
+
+.box2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.earnings_overview_tittle,
+.revenue_sources-tittle {
+  border-bottom: 1px solid gray;
+  padding-left: 15px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box3 {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Primary,
+.Success,
+.Info,
+.Warning,
+.Danger,
+.Secondary,
+.Dark {
+  color: white;
+height: 80px;
+  width: 340px;
+  margin-bottom: 10px;
+    border-radius: 15px;
+}
+.Light {
+  color: black;
+  height: 80px;
+  width: 340px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 2px solid aqua;
+}
+.Primary {
+  background-color: #4e73df;
+}
+
+.Success {
+  background-color: #1cc88a;
+}
+
+.Info {
+  background-color: #36b9cc;
+}
+
+.Warning {
+  background-color: #f6c23e;
+}
+
+.Danger {
+  background-color: #e74a3b;
+}
+
+.Secondary {
+  background-color: #858796;
+}
+
+.Light {
+  background-color: #f8f9fc;
+}
+
+.Dark {
+  background-color: #5a5c69;
+}
+
+.txt {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.txt1 {
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.picture {
+  height: 200px;
+  width: 400px;
+}
+
+.Illustrations_pic {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Illustrations {
+  height: auto;
+}
+.txtcontent {
+  font-size: larger;
+  padding: 30px;
+}
+.Illustrations_content {
+  display: block;
+  align-items: center;
+  padding: 30px;
+}
+.column1,
+.column2 {
+  height: auto;
+  width: 705px;
+}
+.projects {
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  box-shadow: 0px 0px 0px 1px gainsboro;
+}
+
+.Development_Approach,
+.Illustrations {
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 1px gainsboro;
+}
+.colorbox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.Illustrations_tittle,
+.Development_Approach_tittle {
+  border-bottom: 1px solid gray;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  color: blue;
+}
+.txtcontent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+.project_content {
+  display: flex;
+  justify-content: space-between;
+}
+.project5 {
+  margin-bottom: 20px;
+}
+.project1,
+.project2,
+.project3,
+.project4,
+.project5 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.project_tittle,
+.Illustrations_tittle,
+.Development_Approach_tittle {
+  display: flex;
+  padding-left: 15px;
+  border-bottom: 1px solid gray;
+  color: blue;
+}
